@@ -72,7 +72,7 @@ powershell -ExecutionPolicy Bypass -File MynaTask.ps1
 
 * Some system processes **cannot be terminated** (Access Denied)
 * Risk detection is **heuristic-based**, not security-grade
-* No kernel-level or SYSTEM-level operations are used
+* No kernel-level operations are used (*System-level*)
 
 ---
 
