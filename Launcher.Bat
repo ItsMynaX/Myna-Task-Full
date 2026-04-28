@@ -25,4 +25,4 @@ if exist "%psexecPath%" (
     powershell -ExecutionPolicy Bypass -File "%appPath%"
 )
 
-pause
+exit
