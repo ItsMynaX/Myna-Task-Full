@@ -134,7 +134,7 @@ function Refresh-Processes {
 
     $selectedID = if ($ProcGrid.SelectedItem) { $ProcGrid.SelectedItem.Id } else { $null }
 
-    $list = Get-Process | Sort-Object WorkingSet64 -Descending | Select-Object -First 80
+    $list = Get-Process | Sort-Object WorkingSet64 -Descending
     
     $ProcessCollection.Clear()
     foreach ($p in $list) {
@@ -223,4 +223,5 @@ Refresh-Processes
 $timer.Start()
 $syncTimer.Start()
 Write-Host "[>] SUCCESS: Booted"
+Write-Host "[!] Notice: The program may experience lag every 1-2 seconds due to loading multiple processes"
 $win.ShowDialog() | Out-Null
