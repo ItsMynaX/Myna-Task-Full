@@ -26,7 +26,7 @@ echo ==================================================
 echo Select permission:
 echo.
 echo [1] Run as Administrator 
-echo [2] Run as SYSTEM        
+echo [2] Run as SYSTEM (Highest Privileges)         
 echo ==================================================
 set /p "choice=Enter your choice (1 or 2): "
 
