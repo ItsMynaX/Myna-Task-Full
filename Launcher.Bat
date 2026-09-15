@@ -26,7 +26,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdCuDJHSd+kN9HBpHR0mkKWe2S7gd4ea7p7vOnmAEWuNyTI7I0fmoNewfp0jlfJgR+ntPlsgECQkWewquDg==
+::Zh4grVQjdCyDJGyX8VAjFDpneTe+GGStCLkT6ezo08eerExQYOMsc8L9z7iCbe0S40vYWZc42HlSndlCCQNdHg==
 ::YB416Ek+ZG8=
 ::
 ::
@@ -118,7 +118,7 @@ echo ==================================================
 echo                  Myna Task Launcher
 echo ==================================================
 echo   Target: %appPath%
-echo   Grant Privileges Core : TICore v14.5 Preview (latest)
+echo   Grant Privileges Core : TICore v14.6 Stable (latest)
 echo ==================================================
 echo Select privileges level:
 echo.
